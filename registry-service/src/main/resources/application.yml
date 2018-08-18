@@ -1,0 +1,13 @@
+pring:
+  application:
+    name: registry-service
+
+server:
+  port: 8002
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    server:
+waitTimeInMsWhenSyncEmpty: 0
